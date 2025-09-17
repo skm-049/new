@@ -1,0 +1,27 @@
+You are an expert full-stack web developer specializing in AI-integrated, high-performance portfolio websites. Build a complete, professional, AI-powered portfolio web application for a software developer profile. The app must be dashing and visually stunning, with 3D animations and high-graphics elements using technologies like Three.js for 3D rendering. It should feel and function like a native app (e.g., as a Progressive Web App - PWA) with smooth interactions, AI features for personalization (such as an AI chatbot for visitor queries or AI-generated content suggestions in the admin panel), and full SEO optimization for high search engine rankings.
+Key sections and features:
+
+Home Page: Engaging introduction with 3D animated graphics (e.g., rotating code elements or developer avatars), hero section with developer's name, tagline, and call-to-action buttons. Include subtle AI-powered elements like dynamic background based on visitor's time of day.
+Projects Section: Interactive overview of projects with 3D card flips or hover animations. Each project card shows title, description, tech stack, live demo links, and screenshots/videos. Make it filterable and searchable.
+Skills Section: Display developer skills in elegant animated designs (e.g., skill bars with 3D progress animations or orbiting icons). Use AI to suggest related skills or generate visualizations based on user input.
+Experience Section: Timeline-based view of professional experience with 3D timeline animations, including job titles, companies, durations, and achievements.
+About Section: Detailed bio with photos, 3D animated infographics, and personal insights.
+Contact Section: Form for inquiries, integrated with AI for auto-responses or sentiment analysis, plus social links and a map.
+
+Additional requirements:
+
+AI-Powered Features: Integrate AI (e.g., via Grok API, OpenAI, or similar) for an interactive chatbot on the site, content generation in the admin panel, or personalized visitor experiences (e.g., recommending projects based on visitor interests).
+Performance and Scalability: Ensure the site is fast-loading (under 2 seconds), using lazy loading, code splitting, and CDN for assets. Make it scalable for high traffic with serverless architecture.
+Manageability: Include a secure admin panel (built with React Admin or similar) where the user can update all content (e.g., add projects, edit skills) without touching code. Use a CMS-like backend for dynamic content.
+Security and Stability: Implement HTTPS, authentication (JWT or OAuth for admin), input validation, and error handling. Design for long-term stability with modular code and version control best practices.
+SEO Optimization: Use server-side rendering (SSR) for better indexing, meta tags, sitemaps, alt text for images, and structured data (Schema.org for portfolios).
+Tech Stack: Frontend: React.js with Next.js for SSR/SSG. 3D/Graphics: Three.js or Spline. Backend: Node.js/Express or Next.js API routes. Database: MongoDB for flexible content storage. Deployment: Vercel or Netlify for easy scaling. Make it mobile-responsive and PWA-compatible.
+Design Principles: Modern, professional aesthetic with dark/light mode toggle, high-contrast colors, and fluid animations. Ensure accessibility (ARIA labels, keyboard navigation).
+
+Output the following:
+
+A high-level architecture diagram (in text or Mermaid format).
+Complete codebase structure with key files and snippets for frontend, backend, and admin panel.
+Step-by-step deployment guide.
+Any necessary setup scripts or dependencies list.
+Ensure the code is clean, commented, and ready to run with minimal setup.
